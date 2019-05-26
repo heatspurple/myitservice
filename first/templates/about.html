@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block contents %}
+{% load staticfiles %}
+
+    <div class="main-photo" id="background-photo">
+        <img class="background-photo-image" src="{% static 'business1.jpg' %}" width="100%" height="300px">
+        <br><br>
+        <h1 class="main-text-input">About</h1>
+        <br>
+        <p class="main-text-input">Ez-Rename은 개명 이후에 개명자 본인이 직접 바꾸어야 하는 각 개명 정보 갱신을 대신해드리는 서비스입니다.<br> 
+        이로 인해 바쁜 직장인들이 시간을 할애할 필요 없이 값을 지불하면 <br>그 이후에 개명 정보 갱신을 각 기업에게 발송해 자동으로 처리해드리는 서비스입니다.<br><br>
+        이를 통해 기업은 개명 정보 갱신을 위한 이용자의 수가 줄어들어 <br>다른 업무에 더 할애할 수 있게 되며<br>
+        개인은 더 많은 시간을 유익한 곳에 사용할 수 있는 서비스입니다.</p>
+    </div>
+
+</body>
+
+    <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <br>
+          <p>Powered by <a>Minsung</a><br> <a>All rights reserved</a></p>
+        </div>
+    </footer>
+
+{% endblock %}

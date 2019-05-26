@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block contents %}
+{% load staticfiles %}
+
+<body>
+    <div class="main-photo" id="background-photo">
+        <img class="background-photo-image" src="{% static 'contact1.jpg' %}" width="100%" height="300px" >
+        <br><br>
+        <h1 class="main-text-input2">Contact</h1>
+        <br>
+        <p class="main-text-input2">김민성<br>
+           Likelion 7th X 충남대학교 </p>
+    </div>
+</body>
+
+  <footer class="mastfoot mt-auto">
+    <div class="inner">
+      <br>
+      <p>Powered by <a>Minsung</a><br> <a>All rights reserved</a></p>
+    </div>
+  </footer>
+
+{% endblock %}
